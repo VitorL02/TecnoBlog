@@ -1,0 +1,45 @@
+/* Limpar todas as formatações padrão */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* 1Em equivale a 16px */
+    font-size: 1em; 
+    background: #e6e6e6;
+    font-family: 'Trebuchet MS', Helvetica,sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+a:link , a:visited {
+   
+    padding: 10px 12px;
+    color: white;
+}
+a:hover{
+    width: 20px;
+    color: #fd00009f;
+    background-color: white;
+}
+
+h1{
+    color:#0e0d0d;
+    font-size: 2.5em;
+
+}
+
+#cabecalho{
+    background-color: #fd00009f;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo,#area-menu{
+    padding: 10px;
+}
+.branco{
+    color: white;
+}
