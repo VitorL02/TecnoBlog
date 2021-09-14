@@ -25,11 +25,34 @@ a:hover{
     color: #fd00009f;
     background-color: white;
 }
+h2{
+    color: #fd00009f;
+}
 
 h1{
     color:#0e0d0d;
     font-size: 2.5em;
 
+}
+#area-principal{
+    margin: 0 auto;
+    width: 920px;
+}
+#rodape{
+  clear: both;
+  text-align: center;
+  background: #CCC;
+  padding: 15px;
+}
+
+#postagens{
+    width: 660px;
+    padding: 10px;
+    float: left;
+}
+#area-lateral{
+    width: 220px;
+    float: right;
 }
 
 #cabecalho{
@@ -42,4 +65,11 @@ h1{
 }
 .branco{
     color: white;
+}
+
+
+.postagem{
+padding: 20px  ;
+margin-bottom: 20px;
+background:white;
 }
