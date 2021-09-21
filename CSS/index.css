@@ -12,29 +12,52 @@ body{
     font-family: 'Trebuchet MS', Helvetica,sans-serif;
    
 }
+
 a{
     text-decoration: none;
 }
-a:link , a:visited {
-   
+
+a:link ,  a:visited {
+    color: #fd00009f;
+}
+a:hover{
+
+    text-decoration: underline;
+}
+
+/* Utilizando seletores para estilização somente do cabeçalho */
+
+#cabecalho a:link , #cabecalho a:visited {
     padding: 10px 12px;
     color: white;
 }
-a:hover{
+#cabecalho a:hover{
     width: 20px;
     color: #fd00009f;
     background-color: white;
+    /* Css utiliza efeito cascata,pegando primeiro a regra geral do a:hover com o txt decoration,caso não queira o underline e necessario identificar no seletor especifico */
+    text-decoration: none;
 }
+
 h2{
     color: #fd00009f;
 }
-
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
 h1{
     color:#0e0d0d;
     font-size: 2.5em;
 
 }
+
+
+
+
 #area-principal{
+    padding : 15px;
     margin: 0 auto;
     width: 920px;
 }
@@ -72,4 +95,22 @@ h1{
 padding: 20px  ;
 margin-bottom: 20px;
 background:white;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+.conteudo-lateral{
+   
+    padding:10px;
+    margin-bottom: 20px;
+}
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
 }
